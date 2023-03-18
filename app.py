@@ -30,7 +30,6 @@ st.set_page_config(**PAGE_CONFIG)
 
 def Topic_modeler(document_content,prompt):
     # Replace YOUR_API_KEY with your OpenAI API key
-    ai.api_key = "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"
 
     model_engine = "text-davinci-003"
     #print(prompt)
