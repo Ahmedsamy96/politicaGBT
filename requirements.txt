@@ -1,0 +1,8 @@
+pytesseract==0.3.10
+streamlit==1.19.0
+deep_translator==1.9.1
+pandas==1.3.5
+matplotlib==3.5.3
+openai==0.27.2
+fontstyle==1.0.1.2
+snscrape==0.6.1.20230314
