@@ -31,11 +31,6 @@ import openai as ai
 import snscrape.modules.twitter as sntwitter
 import fontstyle
 
-# Set the theme to the Bubble dark theme
-base="dark"
-primaryColor="purple"
-font="serif"
-
 
 PAGE_CONFIG = {"page_title":"PoliticAGBT","page_icon":"https://qph.cf2.quoracdn.net/main-thumb-1299752418-200-hmhzoxrsjjrxxwidtrmqvndctyvbgvud.jpeg","layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
