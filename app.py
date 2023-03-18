@@ -17,16 +17,8 @@ import datetime
 from datetime import date
 import pytesseract
 from deep_translator import GoogleTranslator
-import spacy as spacy
-from spacy import displacy
 import streamlit.components.v1 as components
-from spacy.matcher import Matcher 
-from spacy.tokens import Span 
 import networkx as nx
-import nltk
-nltk.download('punkt')
-from nltk import tokenize
-nlp = spacy.load('en_core_web_sm')
 import openai as ai
 import snscrape.modules.twitter as sntwitter
 import fontstyle
